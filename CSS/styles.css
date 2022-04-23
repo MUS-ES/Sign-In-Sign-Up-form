@@ -369,3 +369,15 @@ main.sign-up-mode form.sign-up-form {
     padding: 1rem 2rem 1.5rem;
   }
 }
+
+@media screen and (max-width: 720px)
+
+{
+
+header { height: 70px; }
+
+article { font-size: 14px; }
+
+img { max-width: 480px; }
+
+}
