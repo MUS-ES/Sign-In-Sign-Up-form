@@ -346,7 +346,7 @@ main.sign-up-mode form.sign-up-form {
   height: 550px;
 }
 
-.pharmacy-img {
+#pharmacy-img {
   position: absolute;
   left: 3px;
   top: 22.7rem;
@@ -488,12 +488,20 @@ main.sign-up-mode form.sign-up-form {
 
   .text-holder {
     position: absolute;
-    bottom: 6rem;
+    bottom: 5.2rem;
     left: 3.5rem;
     font-size: 10%vw;
   }
 }
 
+@media (max-width: 550px) {
+
+  text-holder {
+    position: absolute;
+    bottom: 6.8rem;
+    left: 3.5rem;
+    font-size: 8%vw;
+  }
 
 @media (max-width: 460px) {
   form {
@@ -501,7 +509,7 @@ main.sign-up-mode form.sign-up-form {
   }
   text-holder {
     position: absolute;
-    bottom: 6rem;
+    bottom: 6.8rem;
     left: 3.5rem;
     font-size: 8%vw;
   }
