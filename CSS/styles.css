@@ -346,7 +346,7 @@ main.sign-up-mode form.sign-up-form {
   height: 550px;
 }
 
-#pharmacy-img {
+.pharmacy-img {
   position: absolute;
   left: 3px;
   top: 22.7rem;
