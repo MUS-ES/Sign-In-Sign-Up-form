@@ -394,7 +394,7 @@ main.sign-up-mode form.sign-up-form {
   }
 
   .heading {
-    margin: 2rem 0;
+    margin: 1rem 0;
   }
 
 .form.sign-up-form {
@@ -448,8 +448,6 @@ main.sign-up-mode form.sign-up-form {
   .carousel {
     padding: 1.5rem 1rem;
     border-radius: 1.6rem;
-    justify-content: center;
-    align-items: center;
   }
 
   .text-holder {
@@ -463,65 +461,50 @@ main.sign-up-mode form.sign-up-form {
     padding: 1rem 2rem 1.5rem;
   }
 }
+
+@media (max-width: 588px) {
+  .text-holder {
+    position: absolute;
+    bottom: 5.5rem;
+    left: 3.5rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 530px) {
+  .text-holder {
+    position: absolute;
+    bottom: 4rem;
+    left: 3.5rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 508px) {
+  .carousel {
+    padding: 2.7rem 1rem;
+    border-radius: 1.6rem;
+  }
+
+  .text-holder {
+    position: absolute;
+    bottom: 6rem;
+    left: 3.5rem;
+    font-size: 10%vw;
+  }
+}
+
+
+@media (max-width: 460px) {
+  form {
+    padding: 1rem 0 1.5rem;
+  }
+  text-holder {
+    position: absolute;
+    bottom: 6rem;
+    left: 3.5rem;
+    font-size: 8%vw;
+  }
+}
+
 /* End Of Media Queries */
-
-
-.inputandlabel .error {
-  display: block;
-  transform: translateY(-50%);
-  position: absolute;
-  top: 40%;
-  right: 10%;
-  padding :3px 25px 3px 5px;
-  width: max-content;
-  z-index: 2;
-  background-color: white;
-  border: 1px solid #FF6D55;
-  border-radius: 10px;
-  font-size: 11px;
-  color: brown;
-  overflow: hidden;
-  opacity: 0;
-  
-}
-
-
-
-.inputandlabel i {
-  position: absolute;
-  opacity: 0;
-  right: 12%;
-  top: 40%;
-  transform: translateY(-50%);
-  color: #FF6D55;
-  z-index: 3;
-}
-
-.inputandlabel i.active {
-  opacity: 1;
-  transition: 0.5s;
-}
-
-.inputandlabel i:hover+.error {
- opacity: 1;
-  transition: 0.6s;
- 
-  
-}
-
-#signin-error{
-  display: none;
-  text-align: center;
-  margin-top:-10px;
-  margin-bottom: 13px;
-  font-size: 0.90rem;
-  text-transform: capitalize;
-  color:#ff3f1f;
-  
-}
-#signin-error.active{
-  display: block;
-  
-  
-}
-
